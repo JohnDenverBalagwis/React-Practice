@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+}
+.App {
+  background-image: url(./assets/images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: contain;
+}
+:root {
+  --paleBlue: #e6f2f9;
+  --brightBlue: #7bc9e8;
+  --veryPaleBlue: #f8fafc;
+  --desaturatedBlue: #93a6b0;
+  --darkBlue: #354158;
+}
+.card {
+  background-color: var(--veryPaleBlue);
+}
+
+/*mobile screen*/
